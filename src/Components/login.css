@@ -1,0 +1,134 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    background-color: #3E546D;
+    
+
+}
+.login-container {
+    position: relative;
+    text-align: center;
+    
+    
+  }
+  .login-container h2 {
+    font-size: 36px; /* Increased font size */
+    color: #FFFFFF; /* Changed color to white for contrast */
+    padding: -1px; /* Added padding for better spacing */
+    margin-bottom: -110px; /* Added space below the heading */
+    margin-left:30px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+.login-container1{
+    position: relative;
+    text-align: center;
+}
+  
+.login-container1 h2{
+    font-size: 36px; /* Increased font size */
+    color: #FFFFFF; /* Changed color to white for contrast */
+    padding: -1px; /* Added padding for better spacing */
+    margin-left:30px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+  .image-container {
+    display: flex;
+    justify-content: center;
+    background: url('../../public/images/Group4.png');
+    background-size: 47.5% auto; /* Adjust the width value as needed */
+    width: 1700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right:800px;
+    
+}
+.logo {
+    width: 250px; /* Or whatever size you want */
+    height: auto;
+    /* Place it where you want it inside the image-container */
+    position: absolute;
+    background-image:url('../../public/images/NSBM_Green_University_seal\ 1.png'); 
+    top:700px; /* Adjust the value as needed */
+    left: 45%;
+    background-size: cover;
+   
+  }
+  
+  .login-form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 170px;
+    border-radius: 0px;
+    width: 450px;
+    margin-left:1600px;
+    
+  }
+  
+  .login-form h2 {
+    margin-bottom:100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color: #084B9A;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .remember-me input {
+    margin-right: 5px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    border: none;
+    background-color: #3E546D;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #068a48;
+  }
+  
+  .login-form a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,148 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 240px;
+    background-color: #2A3F54;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar .avatar {
+    background-image: url('../../../public/images/Avatar.png'); /* Replace with your image path */
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar h2, .sidebar p {
+    margin: 5px 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+  }
+  
+  .sidebar ul li:hover {
+    background: #34495e;
+    border-left: 3px solid #1ABC9C;
+  }
+  
+  /* Main Content Styles */
+  .main-section {
+    flex-grow: 1;
+    background-color: #EDEDED;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    border: none;
+    background-color: #3498DB;
+    color: white;
+  }
+  
+  /* Content Styles */
+  .content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card1 {
+    background-color: #2d3e5a;
+    padding: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  .card2 {
+    background-color: #397570;
+    padding: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  .card3 {
+    background-color: #397570;
+    padding: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+
+  .student-details {
+    background-color: #fffcfc; 
+    padding: 40px;
+    margin: 50px auto;
+    width: 100%; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .student-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .student-form input {
+    padding: 0px;
+    margin-bottom: 10px;
+    border: 1px solid #453f3f;
+  }
+  
+  .student-form button {
+    padding: 10px;
+    border: none;
+    background-color: #315d7a;
+    color: white;
+  }
+  .book-info div {
+    margin-bottom: 10px; /* Space between each detail */
+    padding: 5px; /* Padding inside each detail line */
+    border-left: 5px solid #abd1c9; /* Stylish left border for each detail */
+    font-size: 16px; /* Adjust font size as needed */
+  }
+
+  
+  /* Adjust styles to match your exact component structure */
+  
